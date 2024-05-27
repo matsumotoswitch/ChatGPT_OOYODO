@@ -35,29 +35,5 @@ javascript:
 			style.appendChild(document.createTextNode(customCSS));
 			document.head.appendChild(style);
 		}
-		
-		/* ChatGPTの名前欄変更 */
-		function changeName()
-		{
-			document.querySelectorAll('.font-semibold.select-none').forEach
-			(
-				function(element)
-				{
-					/* 名前の「あなた」を「提督」に変更 */
-					if (element.textContent === 'あなた')
-					{
-						element.textContent = '提督';
-					}
-					/* 名前の「ChatGPT」を「秘書艦『大淀』」に変更 */
-					if (element.textContent === 'ChatGPT')
-					{
-						element.textContent = '秘書艦『大淀』';
-					}
-				}
-			);
-		}
-		
-		/* 名前の変更は0.1秒毎に行う */
-		setInterval(changeName, 100);
 	}
 )();

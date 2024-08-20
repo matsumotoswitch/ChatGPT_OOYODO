@@ -6,8 +6,8 @@ javascript:
 		{
 			var customCSS = 
 			`
-				.gizmo-shadow-stroke.flex.h-6.w-6.items-center.justify-center.overflow-hidden.rounded-full
-				, .gizmo-bot-avatar.flex.h-6.w-6.items-center.justify-center.overflow-hidden.rounded-full
+				.gizmo-bot-avatar.flex.h-8.w-8.items-center.justify-center.overflow-hidden.rounded-full
+				, .relative.p-1.rounded-sm.flex.items-center.justify-center.bg-token-main-surface-primary.text-token-text-primary.h-8.w-8
 				{
 					width: 64px !important;
 					height: 64px !important;
